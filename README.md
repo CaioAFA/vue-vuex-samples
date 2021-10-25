@@ -1,3 +1,13 @@
+# Vuex Samples - Exemplos De Utilização Do Vuex
+Assim como o Redux para React, o Vuex é uma forma de gerenciar estados globais em suas aplicações.
+
+Aqui, teremos vários exemplos de como utilizar essa biblioteca que nos ajuda bastante durante o desenvolvimento de aplicações de larga escala, onde um mesmo dado é utilizado em diversos componentes.
+
+**OBS:** Não deixe de ver as configurações feitas nos componentes principais do app (main.js e App.vue).
+
+**OBS2:** Confira as versões das bibliotecas para evitar conflitos.
+
+# README ORIGINAL
 # vuex-samples
 
 ## Project setup
