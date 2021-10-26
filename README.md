@@ -9,6 +9,8 @@ Aqui, teremos vários exemplos de como utilizar essa biblioteca que nos ajuda ba
 
 **OBS3:** Exemplos feitos em Vue 3. Confira a versão do seu projeto caso vá copiar os códigos. Caso esteja utilizando o Vue 3, talvez seja necessário instalar os pacotes com "@next".
 
+<img src="https://raw.githubusercontent.com/CaioAFA/vue-vuex-samples/master/preview/preview.png" />
+
 # README ORIGINAL
 # vuex-samples
 
