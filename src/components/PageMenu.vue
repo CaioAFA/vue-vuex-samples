@@ -7,7 +7,7 @@
     <ul>
 
       <li>
-        <router-link to="/basic-utilization">Utilização Básica</router-link>
+        <router-link to="/basic-utilization">Utilização Básica - State</router-link>
       </li>
 
       <li>

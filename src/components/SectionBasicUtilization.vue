@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle title="Utilização Básica" />
+        <PageTitle title="Utilização Básica - State" />
 
         <PageContentText>
             <p>Renderizando um dado vindo direto do VueX:</p>
