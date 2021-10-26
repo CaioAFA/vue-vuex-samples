@@ -1,7 +1,8 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 
 import PageNotFound from '../components/PageNotFound'
-import SectionIntroduction from '../components/SectionIntroduction'
+import SectionBasicUtilization from '../components/SectionBasicUtilization'
+import SectionMapState from '../components/SectionMapState'
 
 export default new createRouter({
     // This CSS class will be applied on active links
@@ -11,9 +12,13 @@ export default new createRouter({
     
     routes: [
         {
-            path: '/intro',
+            path: '/basic-utilization',
             alias: '/',
-            component: SectionIntroduction
+            component: SectionBasicUtilization
+        },
+        {
+            path: '/map-state',
+            component: SectionMapState
         },
         {
             path: "/:catchAll(.*)",

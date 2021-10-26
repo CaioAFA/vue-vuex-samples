@@ -7,39 +7,35 @@
     <ul>
 
       <li>
-        <router-link to="/intro">Introdução (Módulos)</router-link>
+        <router-link to="/basic-utilization">Utilização Básica</router-link>
       </li>
 
       <li>
-        <router-link to="/">Utilização Básica</router-link>
+        <router-link to="/map-state">Map State</router-link>
       </li>
 
       <li>
-        <router-link to="/">Map State</router-link>
+        <router-link to="/getters">Getters</router-link>
       </li>
 
       <li>
-        <router-link to="/">Getters</router-link>
+        <router-link to="/map-getters">Map Getters</router-link>
       </li>
 
       <li>
-        <router-link to="/">Map Getters</router-link>
+        <router-link to="/mutations">Mutations</router-link>
       </li>
 
       <li>
-        <router-link to="/">Mutations</router-link>
+        <router-link to="/map-mutations">Map Mutations</router-link>
       </li>
 
       <li>
-        <router-link to="/">Map Mutations</router-link>
+        <router-link to="/actions">Actions</router-link>
       </li>
 
       <li>
-        <router-link to="/">Actions</router-link>
-      </li>
-
-      <li>
-        <router-link to="/">Map Actions</router-link>
+        <router-link to="/map-actions">Map Actions</router-link>
       </li>
 
     </ul>
@@ -87,7 +83,7 @@ aside ul li::before {
   text-shadow: 1px 1px 2px black;
 }
 
-aside a{
+aside ul li a{
   /* One above the other */
   display: block;
   
@@ -95,6 +91,7 @@ aside a{
   padding-left: 20px;
   text-decoration: none;
   display: inline-block;
+  color: white;
 
   /* Less distance between the ul circle and the text */
   left: -22px;
@@ -116,5 +113,28 @@ aside a:visited{
 
 aside a:hover{
   text-decoration: underline;
+}
+
+.link-active {
+  color: navajowhite !important;
+}
+
+::-webkit-scrollbar {
+width: 6px;
+height: 6px;
+}
+
+::-webkit-scrollbar-track {
+background: #f5f5f5;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: gray;  
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #999;  
 }
 </style>

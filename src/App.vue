@@ -1,6 +1,8 @@
 <template>
-  <PageMenu/>
-  <PageContent/>
+  <div>
+    <PageMenu/>
+    <PageContent/>
+  </div>
 </template>
 
 <script>
@@ -17,7 +19,7 @@ export default {
 </script>
 
 <style>
-#app {
+#app > div{
   display: flex;
 }
 
