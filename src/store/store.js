@@ -4,6 +4,7 @@ import sectionBasicUtilization from './modules/sectionBasicUtilization'
 import sectionMapState from './modules/sectionMapState'
 import sectionGetters from './modules/sectionGetters'
 import sectionMapGetters from './modules/sectionMapGetters'
+import sectionMutations from './modules/sectionMutations'
 
 export default createStore({
     namespaced: true,
@@ -12,6 +13,7 @@ export default createStore({
         introductionModule: sectionBasicUtilization,
         mapStateModule: sectionMapState,
         gettersModule: sectionGetters,
-        mapGettersModule: sectionMapGetters
+        mapGettersModule: sectionMapGetters,
+        mutationsModule: sectionMutations
     }
 })
