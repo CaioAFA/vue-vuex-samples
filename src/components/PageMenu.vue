@@ -57,6 +57,10 @@ aside {
   border-radius: 0 4px 4px 0;
   max-width: 245px;
   overflow-y: auto;
+
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 aside h1 {
@@ -83,10 +87,7 @@ aside ul li::before {
   text-shadow: 1px 1px 2px black;
 }
 
-aside ul li a{
-  /* One above the other */
-  display: block;
-  
+aside ul li a{  
   margin-top: 30px;
   padding-left: 20px;
   text-decoration: none;
