@@ -3,7 +3,7 @@ Assim como o Redux para React, o Vuex é uma forma de gerenciar estados globais 
 
 Aqui, teremos vários exemplos de como utilizar essa biblioteca que nos ajuda bastante durante o desenvolvimento de aplicações de larga escala, onde um mesmo dado é utilizado em diversos componentes.
 
-**OBS:** Não deixe de ver as configurações feitas nos componentes principais do app (main.js e App.vue).
+**OBS:** Não deixe de ver as configurações feitas nos componentes principais do app (main.js e App.vue) e nos arquivos responsáveis pelo estado (dentro de src/store).
 
 **OBS2:** Confira as versões das bibliotecas para evitar conflitos.
 
