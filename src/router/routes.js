@@ -6,6 +6,7 @@ import SectionMapState from '../components/SectionMapState'
 import SectionGetters from '../components/SectionGetters'
 import SectionMapGetters from '../components/SectionMapGetters'
 import SectionMutations from '../components/SectionMutations'
+import SectionMapMutations from "../components/SectionMapMutations";
 
 export default new createRouter({
     // This CSS class will be applied on active links
@@ -34,6 +35,10 @@ export default new createRouter({
         {
             path: '/mutations',
             component: SectionMutations
+        },
+        {
+            path: '/map-mutations',
+            component: SectionMapMutations
         },
         {
             path: "/:catchAll(.*)",

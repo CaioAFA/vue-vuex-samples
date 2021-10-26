@@ -5,6 +5,7 @@ import sectionMapState from './modules/sectionMapState'
 import sectionGetters from './modules/sectionGetters'
 import sectionMapGetters from './modules/sectionMapGetters'
 import sectionMutations from './modules/sectionMutations'
+import sectionMapMutations from './modules/sectionMapMutations'
 
 export default createStore({
     namespaced: true,
@@ -14,6 +15,7 @@ export default createStore({
         mapStateModule: sectionMapState,
         gettersModule: sectionGetters,
         mapGettersModule: sectionMapGetters,
-        mutationsModule: sectionMutations
+        mutationsModule: sectionMutations,
+        mapMutationsModule: sectionMapMutations
     }
 })

@@ -7,7 +7,7 @@
 
             <p>Repare como utilizamos a diretiva @keyup para alterar o estado.</p>
 
-            Meu nome é: {{ name }}
+            Meu nome é: <b>{{ name }}</b>
 
             <br>
 
