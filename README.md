@@ -19,8 +19,6 @@ npm run serve
 # Acesse a seguinte URL em algum navegador: http://localhost:8080
 ```
 
-<img src="https://raw.githubusercontent.com/CaioAFA/vue-vuex-samples/master/preview/preview.gif" />
-
 # README ORIGINAL
 # vuex-samples
 
