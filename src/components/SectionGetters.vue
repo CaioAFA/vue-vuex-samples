@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle title="Getters" />
+        <PageTitle title="Getters" subtitle="Arquivo src/components/SectionGetters.vue" />
 
         <PageContentText>
             <p>Os Getters servem para recuperar estados em sua forma original ou em alguma formatação diferente.</p>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle title="Map Mutations" />
+        <PageTitle title="Map Mutations" subtitle="Arquivo src/components/SectionMapMutations.vue"/>
 
         <PageContentText>
             <p>Assim como o mapState e o mapGetters, temos o mapMutations para nos ajudar a recuperar os Mutations de forma mais simples.</p>

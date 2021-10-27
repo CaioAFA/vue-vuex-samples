@@ -7,6 +7,10 @@
     <ul>
 
       <li>
+        <a href="https://github.com/CaioAFA/vue-vuex-samples" target="_blank">GitHub do Projeto</a>
+      </li>
+
+      <li>
         <router-link to="/basic-utilization">Utilização Básica - State</router-link>
       </li>
 

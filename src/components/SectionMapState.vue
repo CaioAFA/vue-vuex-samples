@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle title="Map State" />
+        <PageTitle title="Map State" subtitle="Arquivo src/components/SectionMapState.vue" />
 
         <PageContentText>
             <p>Podemos utilizar o MapState para nos ajudar a recuperar os estados de forma mais fácil:</p>

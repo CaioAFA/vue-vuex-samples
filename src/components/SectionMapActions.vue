@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle title="Actions" />
+        <PageTitle title="Actions" subtitle="Arquivo src/components/SectionMapActions.vue" />
 
         <PageContentText>
             <p>Assim como o mapState, mapGetters e mapMutations, temos os mapActions para nos ajudar a recuperar as Actions de forma mais simples.</p>
