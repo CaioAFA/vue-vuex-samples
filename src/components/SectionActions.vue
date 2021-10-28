@@ -1,6 +1,9 @@
 <template>
     <div>
-        <PageTitle title="Actions" subtitle="Arquivo src/components/SectionActions.vue" />
+        <PageTitle
+            title="Actions"
+            subtitle="Arquivo src/components/SectionActions.vue<br/>Store: src/store/modules/sectionActions.js"
+        />
 
         <PageContentText>
             <p>Os actions trabalham junto com os mutations. Enquanto os mutations alteram os estados, os actions são responsáveis por chamar os mutations.</p>

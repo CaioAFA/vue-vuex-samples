@@ -1,6 +1,9 @@
 <template>
     <div>
-        <PageTitle title="Utilização Básica - State" subtitle="Arquivo src/components/SectionBasicUtilization.vue" />
+        <PageTitle
+            title="Utilização Básica - State"
+            subtitle="Arquivo src/components/SectionBasicUtilization.vue<br/>Store: src/store/modules/sectionBasicUtilization.js"
+        />
 
         <PageContentText>
             <p>Renderizando um dado vindo direto do VueX:</p>

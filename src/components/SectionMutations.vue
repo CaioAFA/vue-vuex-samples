@@ -1,6 +1,9 @@
 <template>
     <div>
-        <PageTitle title="Mutations" subtitle="Arquivo src/components/SectionMutations.vue"/>
+        <PageTitle
+            title="Mutations"
+            subtitle="Arquivo src/components/SectionMutations.vue<br/>Store: src/store/modules/sectionMutations.js"
+        />
 
         <PageContentText>
             <p>Com os mutations, podemos alterar algum estado da aplicação.</p>

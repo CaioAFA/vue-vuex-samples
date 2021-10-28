@@ -1,6 +1,9 @@
 <template>
     <div>
-        <PageTitle title="Map Getters" subtitle="Arquivo src/components/SectionMapGetters.vue"/>
+        <PageTitle
+            title="Map Getters"
+            subtitle="Arquivo src/components/SectionMapGetters.vue<br/>Store: src/store/modules/sectionMapGetters.js"
+        />
 
         <PageContentText>
             <p>Os Map Getters servem para recuperar os Getters de forma mais simples (assim como o MapState).</p>
